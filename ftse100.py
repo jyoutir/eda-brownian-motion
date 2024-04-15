@@ -4,7 +4,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 # Load the FTSE 100 dataset
-ftse100_data = pd.read_excel('/Users/jyoutirraj/Library/Mobile Documents/com~apple~CloudDocs/SOR project/FTSE100.xlsx')  # Update this to the path of your FTSE 100 file
+ftse100_data = pd.read_excel('/Users/Library/Mobile Documents/com~apple~CloudDocs/SOR project/FTSE100.xlsx')  # Update this to the path of your FTSE 100 file
 
 # Convert 'Date' column to datetime format
 ftse100_data['Date'] = pd.to_datetime(ftse100_data['Date'])
