@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 # Load the uploaded CSV file (HAVE TO CHANGE PATH IF YOU WANT TO RUN ON OWN COMPUTER)
-file_path = '/Users/jyoutirraj/Library/Mobile Documents/com~apple~CloudDocs/SOR project/SandP500.csv'  
+file_path = '/Users/Library/Mobile Documents/com~apple~CloudDocs/SOR project/SandP500.csv'  
 data = pd.read_csv(file_path)
 
 # Converts the 'Date' column to datetime format
