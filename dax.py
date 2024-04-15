@@ -4,7 +4,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 # Load the DAX dataset
-dax_data = pd.read_csv('/Users/jyoutirraj/Library/Mobile Documents/com~apple~CloudDocs/SOR project/DAX.csv')  # Update this to the path of your DAX file
+dax_data = pd.read_csv('/Users/Library/Mobile Documents/com~apple~CloudDocs/SOR project/DAX.csv')  # Update this to the path of your DAX file
 
 # Convert 'Date' column to datetime format
 dax_data['Date'] = pd.to_datetime(dax_data['Date'], format='%d/%m/%Y')
