@@ -4,7 +4,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 # Load the Taiwan Weighted dataset
-taiwan_weighted_data = pd.read_excel('/Users/jyoutirraj/Library/Mobile Documents/com~apple~CloudDocs/SOR project/Taiwan-Weighted.xlsx')  # Update this to the path of your file
+taiwan_weighted_data = pd.read_excel('/Users/Library/Mobile Documents/com~apple~CloudDocs/SOR project/Taiwan-Weighted.xlsx')  # Update this to the path of your file
 
 # Convert 'Date' column to datetime format
 taiwan_weighted_data['Date'] = pd.to_datetime(taiwan_weighted_data['Date'])
