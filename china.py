@@ -4,7 +4,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 # Load the China A50 dataset
-china_a50_data = pd.read_excel('/Users/jyoutirraj/Library/Mobile Documents/com~apple~CloudDocs/SOR project/China-A50.xlsx')  # Update this to the path of your China A50 file
+china_a50_data = pd.read_excel('/Users/Library/Mobile Documents/com~apple~CloudDocs/SOR project/China-A50.xlsx')  # Update this to the path of your China A50 file
 
 # Convert 'Date' column to datetime format
 china_a50_data['Date'] = pd.to_datetime(china_a50_data['Date'])
