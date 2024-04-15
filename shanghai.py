@@ -4,7 +4,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 # Load the DJ Shanghai dataset
-dj_shanghai_data = pd.read_excel('/Users/jyoutirraj/Library/Mobile Documents/com~apple~CloudDocs/SOR project/DJ-Shanghai.xlsx')  
+dj_shanghai_data = pd.read_excel('/Users/Library/Mobile Documents/com~apple~CloudDocs/SOR project/DJ-Shanghai.xlsx')  
 
 # Convert 'Date' column to datetime format
 dj_shanghai_data['Date'] = pd.to_datetime(dj_shanghai_data['Date'])
