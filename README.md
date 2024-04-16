@@ -16,3 +16,7 @@ Change the File paths from my paths into your own (the datasets are also uploade
 
 P.S. Libraries to install: 
 pip install pandas numpy matplotlib scipy statsmodels 
+
+
+P.P.S. 
+ADF test can be tempremental and may take a few tries to get it to run
